@@ -1,0 +1,77 @@
+body{
+font-family: 'Times New Roman', Times, serif;
+margin-bottom: 15vh;
+background-color: rgb(217,211,218);
+}
+body p{
+    font-size: 18px;
+}
+.header{
+background-image: linear-gradient(to right, rgb(57,77,158, 0.6),rgb(178,35,175, 0.4));
+color: white;
+height: 30vh;
+font-size: 18px;
+}
+.card_1{
+    height: 25vh;
+background-color: white;
+
+}
+.card-header{
+    background-image: linear-gradient(to right, rgb(57,77,158, 0.6),rgb(178,35,175, 0.4));
+color: white;
+}
+
+.form-control{
+    width: 50%;
+ border-radius: 5px;
+ margin: 0 auto; /* Add this to center the input field */
+ display: flex;
+ justify-content: center;
+}
+.button {
+    background-color: rgb(13,37,86);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-image: linear-gradient(to right, rgb(57, 77, 158, 0.8), rgb(178, 35, 175, 0.6));
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+
+
+.bish-bosh-result {
+  font-family: Arial, sans-serif;
+  font-size: 8 px;
+  color: #333;
+  padding: 20px;
+  border: 1px;
+  border-radius: 10px;
+  /* background-color: #f9f9f9; */
+}
+
+.bish-bosh-result ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .bish-bosh-result li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .bish-bosh-result li:last-child {
+    border-bottom: none;
+  }
+  
+  .bish-bosh-result li span {
+    font-weight: bold;
+    margin-right: 10px;
+  }
